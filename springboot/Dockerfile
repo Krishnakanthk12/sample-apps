@@ -1,4 +1,4 @@
-FROM openjdk:17-oracle
+FROM openjdk:11-oracle
 WORKDIR /Users/shivtejnarake/Springboot/Springboot
 COPY /target/hello-0.0.1-SNAPSHOT.jar /hello-0.0.1-SNAPSHOT.jar
 COPY /opentelemetry-javaagent.jar /opentelemetry-javaagent.jar
